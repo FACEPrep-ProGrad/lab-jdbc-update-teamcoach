@@ -2,8 +2,9 @@
 
 # ProGrad Lab | ProGrad Premier League
 
+Like the Indian Premier League (IPL) which happens during April & May every year. Our team organizes ProGrad Premier League at the same time for all the Cricketers in our team. Our PPL schema is a complete repository of limited-over format of Cricket, that includes details like teams competing, player representing each team, scoring details, umpire details etc.
 
-
+Can you help build the database for our schema?
 
 ## What Should You Do
 ```
@@ -40,36 +41,36 @@ Download ojdbc6.jar from the given link [https://www.oracle.com/database/technol
 
 ## Progression 0:
 
-1. ***Right click on src folder and select new - file and name it as jdbc.properties.***
-2. ***You can use the jdbc properties given below in the NOTE section.***
+1. Right click on src folder and select new - file and name it as jdbc.properties.
+2. You can use the jdbc properties given below in the NOTE section.
 
 ## Progression 1:
 
-1. **Create a class called as `ConnectionManager` inside the utility package.**
-2. **Create a method public static Connection getConnection() which returns a connection object.** 
-3. **Use the method public static Properties loadPropertiesFile() to load the jdbc properties from the jdbc.properties file.**
+1. Create a class called as `ConnectionManager` inside the utility package.
+2. Create a method public static Connection getConnection() which returns a connection object. 
+3. Use the method public static Properties loadPropertiesFile() to load the jdbc properties from the jdbc.properties file.
 
 ## Progression 2:
 
-1. ***Create a class called as `Team` with below attributes,***
-	- ***teamName - String*** 
-	- ***coachName - String***
-2. ***Include getter and setter method for all the attributes***
-3. ***Include a constructor with below arguments,***
-	- ***public Team(teamld,teamName,coachName)***
+1. Create a class called as `Team` with below attributes,
+	- teamName - String
+	- coachName - String
+2. Include getter and setter method for all the attributes
+3. Include a constructor with below arguments,
+	- public Team(teamld,teamName,coachName)
 
 ## Progression 3:
 
-1. ***Create a dao-class called as `TeamDAO` with below methods,***
+1. Create a dao-class called as `TeamDAO` with below methods,
 	- public List<Team> getAllTeams() - Method used to get all the users from the database
 	- public void updateTeamDetails(String teamName,String coachName) - Method used to update the team's coach details (coach name) 
 	- public static void displayTeams(List<Team> teamList) - Method used to display the team coach details
 
 
 ## Progression 4:
-1. ***Create a class called as Main with the main method inside the controller package.***
-2. ***Create object for the TeamDAO class.***
-3. ***Call the appropriate method based on the user selection.***
+1. Create a class called as Main with the main method inside the controller package.
+2. Create object for the TeamDAO class.
+3. Call the appropriate method based on the user selection.
 
 
 ![1 2](https://user-images.githubusercontent.com/61002120/76416050-5807d380-63c0-11ea-8d52-9e8750e800f9.png)
@@ -118,3 +119,5 @@ England			Sanjay Bangar
 South Africa		Ricky Ponting 
 America			Supergiants Stephen 
 ```
+
+Happy Coding ❤️
