@@ -37,7 +37,19 @@ And finally, create a pull request so your ProGrad Mentor (PM) can review your w
 ## Requirements
 Download ojdbc6.jar from the given link [https://www.oracle.com/database/technologies/jdbcdriver-ucp-downloads.html]
 
+
+## Progression 0:
+
+1. ***Right click on src folder and select new - file and name it as jdbc.properties.***
+2. ***You can use the jdbc properties given below in the NOTE section.***
+
 ## Progression 1:
+
+1. **Create a class called as `ConnectionManager` inside the utility package.**
+2. **Create a method public static Connection getConnection() which returns a connection object.** 
+3. **Use the method public static Properties loadPropertiesFile() to load the jdbc properties from the jdbc.properties file.**
+
+## Progression 2:
 
 1. ***Create a class called as `Team` with below attributes,***
 	- ***teamName - String*** 
@@ -46,13 +58,18 @@ Download ojdbc6.jar from the given link [https://www.oracle.com/database/technol
 3. ***Include a constructor with below arguments,***
 	- ***public Team(teamld,teamName,coachName)***
 
-## Progression 2:
+## Progression 3:
 
 1. ***Create a dao-class called as `TeamDAO` with below methods,***
 	- public List<Team> getAllTeams() - Method used to get all the users from the database
 	- public void updateTeamDetails(String teamName,String coachName) - Method used to update the team's coach details (coach name) 
-	- public static void displayTeams(List<Team> teamList) - Method used to display the team coach details 
-2. ***Whenever you perform a databas
+	- public static void displayTeams(List<Team> teamList) - Method used to display the team coach details
+
+
+## Progression 4:
+1. ***Create a class called as Main with the main method inside the controller package.***
+2. ***Create object for the TeamDAO class.***
+3. ***Call the appropriate method based on the user selection.***
 
 
 ![1 2](https://user-images.githubusercontent.com/61002120/76416050-5807d380-63c0-11ea-8d52-9e8750e800f9.png)
