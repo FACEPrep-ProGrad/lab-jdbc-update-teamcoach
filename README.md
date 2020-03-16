@@ -3,6 +3,8 @@
 # ProGrad Lab | ProGrad Premier League
 
 
+
+
 ## What Should You Do
 ```
 Fork this repo
@@ -50,7 +52,7 @@ Download ojdbc6.jar from the given link [https://www.oracle.com/database/technol
 	- public List<Team> getAllTeams() - Method used to get all the users from the database
 	- public void updateTeamDetails(String teamName,String coachName) - Method used to update the team's coach details (coach name) 
 	- public static void displayTeams(List<Team> teamList) - Method used to display the team coach details 
-2. ******
+2. ***Whenever you perform a databas
 
 
 ![1 2](https://user-images.githubusercontent.com/61002120/76416050-5807d380-63c0-11ea-8d52-9e8750e800f9.png)
